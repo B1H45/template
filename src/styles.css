@@ -1,0 +1,27 @@
+:root {
+    --primary: rgb(30, 32, 60);
+    --light: rgb(214, 218, 231);
+    --white: white;
+}
+
+* {
+    color: var(--primary);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 0;
+    /* font-size: 1rem;
+    font-weight: 500; */
+}
+
+.center-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section {
+    margin: 2rem;
+}
